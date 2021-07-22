@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+html {
+    height: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.main-header {
+    background-color: #3DA9FC;
+    padding: 2.4rem 1.2rem;
+    margin-bottom: 2.3rem;
+}
+
+.heading { 
+    font-family: Roboto;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 1.4rem;
+    text-align: center;
+}
+
+
+.search {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    background-color: rgba(255, 255, 255, 0.22);
+    border: none;
+    border-radius: 5.0rem 0 0 5.0rem;
+    padding: 0.6rem 4.8rem 0.6rem 3.0rem;
+    width: 25rem;
+    height: 4.0rem;
+}
+
+.search::placeholder {
+    color: white;
+    font-family: Roboto;
+}
+
+.search-btn {
+    font-family: Roboto;
+    color: #3DA9FC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    background-color: white;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    width: 10rem;
+    height: 4rem;
+}
+
+.search-box {
+    display: flex;
+}
+
+.item {
+    width: 35rem;
+    height: 10rem;
+    margin: 0 1.3rem 2.3rem 1.2rem;
+    border-bottom: solid 1px #90B4CE;
+}
+
+.icon {
+    float: left;
+    margin: 2.2rem 2.9rem  1.9rem 0.9rem;
+    padding: 1.6rem 1.25rem;
+    border: 1px solid #DADADA;
+    border-radius: 50%;
+}
+
+.content {
+    padding-top: 2.2rem;
+}
+
+.title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    margin-bottom: 0.9rem;
+    color: #094067;
+}
+
+.description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #5983A0;
+}
+
+.btn-new {
+    position: absolute;
+    right: 1.3rem;
+    bottom: 3.1rem;
+
+    background-color: #3DA9FC;
+    border: none;
+    width: 6.0rem;
+    height: 6.0rem;
+    border-radius: 50%;
+
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+
+    box-shadow: 0px 4px 4px rgba(9, 64, 103, 0.47);
+}
+
+.extra-header {
+    background-color: #3DA9FC;
+    display: flex;
+    margin-bottom: 1.3rem;
+}
+
+.back {
+    margin: 2.5rem 0 2.556rem 1.7rem;
+}
+
+.headingCre {
+    font-family: Roboto;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 2.5rem 0 0 8.425rem ;
+}
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+
+    color: #094067;
+    margin: 0 0 1.7rem 1.7rem;
+}
+
+.input-name {
+    background: #FFFFFF;
+    border: 1px solid #094067;
+    border-radius: 5px;
+
+    width: 33.8rem;
+    height: 4rem;
+    margin-left: 1.7rem;
+    margin-bottom: 3.3rem;
+}
+
+.input-name::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+
+    color: #000000;
+
+    padding: 0.3rem 0 0 0.7rem;
+    float: left;
+}
+
+.input-details {
+    background: #FFFFFF;
+    border: 1px solid #094067;
+    border-radius: 5px;
+
+    width: 33.8rem;
+    height: 22.9rem;
+    margin-left: 1.7rem;
+    margin-bottom: 3.3rem;
+}
+
+.input-details::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+
+    color: #000000;
+    padding: 0.3rem 0 0 0.7rem;
+    float: left;
+}
+
+.save-btn {
+    width: 33.8rem;
+    height: 6rem;
+
+    background: #3DA9FC;
+    border-radius: 5px;
+    border: none;
+
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+
+    margin-left: 1.7rem;
+}
+
+.save-btn-edit {
+    width: 15.3rem;
+}
+
+.delete-btn {
+    width: 15.3rem;
+    height: 6rem;
+
+    background: #EF4565;
+    border-radius: 5px;
+    border: none;
+
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+
+    margin-left: 3rem;;
+}
