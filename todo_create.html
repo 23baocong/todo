@@ -13,21 +13,22 @@
 <body>
     <div class="container">
         <header class="extra-header">
-            <img class="back" src="images/back_icon.png" alt="BackIcon">
+            <a href="/todo_list.html"><img class="back" src="images/back_icon.png" alt="BackIcon"></a>
             <h1 class="headingCre">Create Todo</h1>
         </header>
         <section>
             <div>
                 <h2>Name</h2>
-                <input class="input-name" type="text" placeholder="Enter the name">
+                <input id="name-input" class="input-name" type="text" placeholder="Enter the name" />
             </div>
             <div>
                 <h2>Details</h2>
-                <input class="input-details" type="text" placeholder="Enter the details">
-                <button class="save-btn" type="button">Save</button>
+                <input id="detail-input" class="input-details" type="text" placeholder="Enter the details" />
+                <button class="save-btn" type="button" id="save-button">Save</button>
             </div>
         </section>
     </div>
+    <script src="./scripts/todo_create.js"></script>
 </body>
 
 </html>
