@@ -2,9 +2,9 @@ const TODO_URL = "https://awsc4v.deta.dev/todos"
 
 function createTodo(title, description) {
     const newTodo = {
-        'title': title,
-        'description': description,
-        'completed': false
+        "title": title,
+        "description": description,
+        "completed": false
     }
 
     fetch(TODO_URL, {
