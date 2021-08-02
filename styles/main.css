@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
-    color: #000;
+    color: white;
 }
 
 html {
@@ -19,6 +20,7 @@ body {
 
 .container {
     width: 100%;
+    position: relative;
 }
 
 .main-header {
@@ -27,7 +29,7 @@ body {
     margin-bottom: 2.3rem;
 }
 
-.heading { 
+.heading {
     font-family: Roboto;
     color: #fff;
     font-size: 2.4rem;
@@ -35,7 +37,6 @@ body {
     margin-bottom: 1.4rem;
     text-align: center;
 }
-
 
 .search {
     font-family: Roboto;
@@ -83,7 +84,7 @@ body {
 
 .icon {
     float: left;
-    margin: 2.2rem 2.9rem  1.9rem 0.9rem;
+    margin: 2.2rem 2.9rem 1.9rem 0.9rem;
     padding: 1.6rem 1.25rem;
     border: 1px solid #DADADA;
     border-radius: 50%;
@@ -113,23 +114,35 @@ body {
 }
 
 .btn-new {
-    position: absolute;
+    position: fixed;
     right: 1.3rem;
     bottom: 3.1rem;
-
     background-color: #3DA9FC;
     border: none;
     width: 6.0rem;
     height: 6.0rem;
     border-radius: 50%;
-
     color: white;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 4.8rem;
     line-height: 4.8rem;
+    box-shadow: 0px 4px 4px rgba(9, 64, 103, 0.47);
+}
 
+.btn-filter {
+    position: fixed;
+    left: 1.3rem;
+    bottom: 3.1rem;
+    background-color: #3DA9FC;
+    border: none;
+    width: 6.0rem;
+    height: 6.0rem;
+    border-radius: 50%;
+    color: white;
+    font-family: Roboto;
+    line-height: 4.8rem;
     box-shadow: 0px 4px 4px rgba(9, 64, 103, 0.47);
 }
 
@@ -148,15 +161,15 @@ body {
     color: #fff;
     font-size: 2.4rem;
     font-weight: 500;
-    margin: 2.5rem 0 0 8.425rem ;
+    margin: 2.5rem 0 0 8.425rem;
 }
+
 h2 {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 2.4rem;
     line-height: 2.8rem;
-
     color: #094067;
     margin: 0 0 1.7rem 1.7rem;
 }
@@ -165,7 +178,6 @@ h2 {
     background: #FFFFFF;
     border: 1px solid #094067;
     border-radius: 5px;
-
     width: 33.8rem;
     height: 4rem;
     margin-left: 1.7rem;
@@ -178,9 +190,7 @@ h2 {
     font-weight: normal;
     font-size: 1.8rem;
     line-height: 2.1rem;
-
     color: #000000;
-
     padding: 0.3rem 0 0 0.7rem;
     float: left;
 }
@@ -189,7 +199,6 @@ h2 {
     background: #FFFFFF;
     border: 1px solid #094067;
     border-radius: 5px;
-
     width: 33.8rem;
     height: 22.9rem;
     margin-left: 1.7rem;
@@ -202,7 +211,6 @@ h2 {
     font-weight: normal;
     font-size: 1.8rem;
     line-height: 2.1rem;
-
     color: #000000;
     padding: 0.3rem 0 0 0.7rem;
     float: left;
@@ -211,18 +219,15 @@ h2 {
 .save-btn {
     width: 33.8rem;
     height: 6rem;
-
     background: #3DA9FC;
     border-radius: 5px;
     border: none;
-
     color: white;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 2.4rem;
     line-height: 2.8rem;
-
     margin-left: 1.7rem;
 }
 
@@ -233,17 +238,15 @@ h2 {
 .delete-btn {
     width: 15.3rem;
     height: 6rem;
-
     background: #EF4565;
     border-radius: 5px;
     border: none;
-
     color: white;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 2.4rem;
     line-height: 2.8rem;
-
-    margin-left: 3rem;;
+    margin-left: 3rem;
+    ;
 }
